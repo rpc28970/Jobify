@@ -13,11 +13,14 @@ import jobsRouter from "./routes/jobsRoutes.js";
 //middleware
 import notFoundMiddleware from "./middleware/not-found.js";
 import errorHandlerMiddleware from "./middleware/error-handler.js";
-
+ 
 app.use(express.json());
 
 app.get("/", (req, res) => {
   res.send("Welcome!");
+});
+app.get("/api/v1", (req, res) => {
+  res.send("API");
 });
 
 app.use("/api/v1/auth", authRouter);
