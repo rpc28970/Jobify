@@ -11,4 +11,5 @@ export const LOGIN_USER_ERROR = "LOGIN_USER_ERROR";
 
 //Can Refactor Repetitive Code;
 
-
+export const TOGGLE_SIDEBAR = "TOGGLE_SIDEBAR";
+export const LOGOUT_USER = "LOGOUT_USER";
