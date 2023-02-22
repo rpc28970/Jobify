@@ -39,3 +39,5 @@ export const LOGOUT_USER = "LOGOUT_USER";
 export const HANDLE_CHANGE = "HANDLE_CHANGE";
 export const CLEAR_VALUES = "CLEAR_VALUES";
 export const CLEAR_FILTERS = "CLEAR_FILTERS";
+
+export const CHANGE_PAGE = "CHANGE_PAGE";
